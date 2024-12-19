@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coin Toss</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="page-content">
         <h1 id="title">
             Coin Toss
         </h1>
-        <h2 id="desctiption">
+        <h2 id="description">
             Flip a virtual coin online
         </h2>
         <h3 id="track-results">
             Track the results of your flips:
         </h3>
-        <div id="heads-counter">
-            Heads:
-        </div>
-        <div id="tails-counter">
-            Tails:
+        <div class="counters">
+            <div id="heads-counter">
+                Heads:
+            </div>
+            <div id="tails-counter">
+                Tails:
+            </div>
         </div>
         <div id="coin"></div>
         <button id="flip-button" aria-label="Press to flip the coin">
