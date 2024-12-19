@@ -20,20 +20,33 @@
         <h3 id="track-results">
             Track the results of your flips:
         </h3>
-        <div class="counters">
+        <div id="counters">
             <div id="heads-counter">
                 Heads:
+            </div>
+            <div> 
+                0 
             </div>
             <div id="tails-counter">
                 Tails:
             </div>
+            <div>
+                0
+            </div>
         </div>
-        <div id="coin"></div>
+        <div id="coin">
+            HEAD/TAIL
+        </div>
         <button id="flip-button" aria-label="Press to flip the coin">
-            Press to flip
+            Click to flip
         </button>
-        <div id="result">
-            Your last flip:
+        <div id="last">
+            <div id="last-result">
+                Your last flip:
+            </div>
+            <div id="last-result-value">
+                last_result
+            </div>
         </div>
     </div>
 </body>

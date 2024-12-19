@@ -26,6 +26,7 @@ body{
   background-color: red; 
   /* padding: 20px 30px 30px 30px; */
   border-radius: 20px;
+  min-height: 60%;
 }
 
 #title{
@@ -42,3 +43,52 @@ body{
     padding: 0px 10px 0 10px;
 }
 
+#counters{
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(138, 138, 138) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 90%;
+    background-color: lightblue;
+    margin-bottom: 5vh;
+    padding: 30px;
+}
+
+#coin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: yellow;
+    border-radius: 200px;
+}
+
+#flip-button{
+    margin-top: 5vh;
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:32px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:16px 27px;
+	text-decoration:none;
+	text-shadow:2px 2px 6px #2f6627;
+}
+
+#flip-button:hover{
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+
+#flip-button:active {
+	position:relative;
+	top:1px;
+}
+
+#last{
+    margin: 20px 0 20px 0;
+}
