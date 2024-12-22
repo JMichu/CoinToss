@@ -32,10 +32,11 @@ const last_result = document.getElementById('last-result-value');
 // Flip button event listener
 const button = document.getElementById('flip-button');
 button.addEventListener('click', () => {
-    console.log("Button clicked");
+    //console.log("Button clicked");
 
     // Animation for the coin
     const coin = document.getElementById('coin');
+    coin.innerText = '';
     coin.classList.add('flip');
 
     // Update the coin state and counters after the animation ends
